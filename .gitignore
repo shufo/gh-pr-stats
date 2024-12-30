@@ -1,0 +1,8 @@
+/gh-pr-stats
+/gh-pr-stats.exe
+prs.json
+issues.json
+stats.json
+
+dist/
+.task/

@@ -1,0 +1,30 @@
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+name: release-please
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: googleapis/release-please-action@v4
+        id: release
+      - name: Checkout
+        if: ${{ steps.release.outputs.release_created }}
+        uses: actions/checkout@v4
+      - name: Unshallow
+        if: ${{ steps.release.outputs.release_created }}
+        run: git fetch --prune --unshallow
+      - name: Run release step
+        if: ${{ steps.release.outputs.release_created }}
+        uses: cli/gh-extension-precompile@v2
+        with:
+          release_tag: ${{ steps.release.outputs.tag_name }}
+          go_version_file: go.mod
+          build_script_override: "scripts/release_build.sh"
