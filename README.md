@@ -4,7 +4,8 @@
 
 A `gh` CLI extension that lets you export PR stats aggregated by labels with various format (CSV, JSON, TSV).
 
-![Screencast](https://github.com/user-attachments/assets/27d4f6ba-1cfa-4c85-b9a8-3402248247b0)
+![Screencast](https://github.com/user-attachments/assets/6f606cea-6284-4674-af32-bb1b718e261d)
+
 
 ## Requirements
 
@@ -18,7 +19,7 @@ gh extension install shufo/gh-pr-stats
 
 ## Output Example
 
-Stats from GitHub CLI (`cli/cli`)
+Stats from [GitHub CLI](https://github.com/cli/cli) (`cli/cli`)
 
 ```bash
 $ gh pr-stats cli/cli -f csv
