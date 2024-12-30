@@ -7,7 +7,7 @@ A `gh` CLI extension that lets you export PR stats aggregated by labels with var
 ![Screencast](https://github.com/user-attachments/assets/6f606cea-6284-4674-af32-bb1b718e261d)
 
 
-## Requirements
+## Prerequisite
 
 - [GitHub CLI](https://github.com/cli/cli)
 
