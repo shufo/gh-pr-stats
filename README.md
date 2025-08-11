@@ -14,7 +14,7 @@ A `gh` CLI extension that lets you export PR stats aggregated by labels with var
 ## Installation
 
 ```bash
-gh extension install shufo/gh-pr-stats
+$ gh extension install shufo/gh-pr-stats
 ```
 
 ## Output Example
