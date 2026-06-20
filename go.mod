@@ -5,15 +5,10 @@ go 1.23.2
 require github.com/cli/go-gh/v2 v2.12.1
 
 require (
-	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/go-openapi/errors v0.22.0 // indirect
-	github.com/go-openapi/strfmt v0.23.0 // indirect
-	github.com/google/uuid v1.6.0 // indirect
-	github.com/mitchellh/mapstructure v1.5.0 // indirect
-	github.com/oklog/ulid v1.3.1 // indirect
+	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	go.mongodb.org/mongo-driver v1.14.0 // indirect
+	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
 )
 
 require (
@@ -24,7 +19,6 @@ require (
 	github.com/fatih/color v1.7.0 // indirect
 	github.com/henvic/httpretty v0.0.6 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
-	github.com/jedib0t/go-pretty v4.3.0+incompatible
 	github.com/jedib0t/go-pretty/v6 v6.6.8
 	github.com/kr/text v0.2.0 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
